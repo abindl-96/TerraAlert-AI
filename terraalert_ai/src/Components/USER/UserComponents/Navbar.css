@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR MAIN */
+.homenav2 {
+  height: 90px;
+  width: 100%;
+  background-color: rgb(3, 20, 20);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.homehead2 {
+  font-family: system-ui;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+/* CENTER CONTENT: SEARCH + BUTTONS */
+.navbar-center {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* SEARCHBAR */
+.searchbar {
+  background: #1a2a2a;
+  padding: 8px 15px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #3c4c4c;
+}
+
+.searchbar input {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 180px;
+}
+
+.searchbar input::placeholder {
+  color: #b8cbcb;
+}
+
+/* NAV BUTTONS */
+.homeitems2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbuttons {
+  color: #fff;
+  background: none;
+  border: none;
+  height: 35px;
+  width: 110px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbuttons:hover {
+  color: rgb(90, 203, 203);
+}
+
+/* ICONS */
+.homeicons2 {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.homeicons2 img {
+  height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.homeicons2 img:hover {
+  opacity: 0.8;
+}

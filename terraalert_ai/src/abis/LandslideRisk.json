@@ -1,0 +1,66 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "_lat",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "_lng",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_riskPercentage",
+          "type": "uint256"
+        }
+      ],
+      "name": "recordRisk",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "_lat",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "_lng",
+          "type": "int256"
+        }
+      ],
+      "name": "getRiskData",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}

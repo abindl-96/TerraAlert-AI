@@ -1,0 +1,95 @@
+/* Background layout */
+.register-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card style */
+.register-card {
+  width: 380px;
+  background: #fff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.register-head {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e3c72;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* Input styles */
+.register-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #bfc8d8;
+  outline: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.register-input:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 6px rgba(42, 82, 152, 0.4);
+}
+
+/* Submit Button */
+.register-submit {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.register-submit:hover {
+  background: linear-gradient(90deg, #18315e, #234774);
+}
+
+.register-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Status message */
+.register-status {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #ffeded;
+  background: #d9534f;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.register-status:contains("success") {
+  background: #28a745;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,113 @@
+.homeparent{
+    background-color: rgb(229, 204, 112);
+    height: 100vh;
+    width: 100%;
+    background: url(pexels-bri-schneiter-28802-346529.jpg);
+    background-size: cover;
+}
+*{
+    margin: 0;
+}
+.homenav{
+    background-color: rgb(126, 126, 220);
+    height: 0px;
+    width: 100%;
+    background-color: rgb(3, 20, 20);
+    background-size: cover;
+    color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.homehead{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+    margin-left: 5%;
+}
+.homefooter{
+    height: 200px;
+    width: 100%;
+    background: #092034;
+    
+
+}
+.homecontent{
+    height: 600px;
+    width: 100%;
+    background: #25a70bf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-weight: 600;
+    font-size: 50px;
+
+}
+.homecontent1{
+    height: 100px;
+    width: 500px;
+    background: #751212;
+    display: flex;
+    justify-content: center;
+align-items: center;
+border-radius: 20px;
+}
+.homeitems{
+    height: 100%;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+.homeicons{
+    width: 20%;
+    height: 100%;
+    background: #b71212;
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+
+}
+
+.homeicons img{
+    height: 25%;
+
+}
+.homefooter1{
+height: 100%;
+width: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.homef1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+color: #ffffff;
+}
+
+.homefooter{
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.homecontent2{
+    color: #973535;
+    font-family: sans-serif;
+    
+}
+
+

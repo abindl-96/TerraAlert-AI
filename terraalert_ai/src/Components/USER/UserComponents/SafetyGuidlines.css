@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Title Section */
+.safety {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.safety p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d1b2a;
+}
+
+
+/* ===== Safety Cards Container ===== */
+.safetycards1,
+.safetycards2,
+.safetycards3 {
+    width: 90%;
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 20px;
+
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.3s ease;
+
+    cursor: pointer;
+}
+
+/* Hover */
+.safetycards1:hover,
+.safetycards2:hover,
+.safetycards3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* Left Text */
+.safetycards1 p,
+.safetycards2 p,
+.safetycards3 p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #33415c;
+}
+
+/* Button */
+.safetycards1 input,
+.safetycards2 input,
+.safetycards3 input {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 20px;
+
+    background: #1b263b;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+.safetycards1 input:hover,
+.safetycards2 input:hover,
+.safetycards3 input:hover {
+    background: #415a77;
+}

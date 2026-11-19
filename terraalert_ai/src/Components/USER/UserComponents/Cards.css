@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container */
+.cardscontainer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.cardscontainer > p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+/* Cards layout */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+/* Minimal card */
+.card1 {
+  width: 220px;
+  padding: 20px 16px;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;      /* minimal border */
+  background: #ffffff;             /* flat background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+/* Subtle hover (minimal) */
+.card1:hover {
+  transform: translateY(-3px);
+  border-color: #cfcfcf;
+}
+
+/* Image */
+.cardimg img {
+  width: 48px;
+  height: 48px;
+  opacity: 0.9;
+}
+
+/* Text inside card */
+.card1content {
+  margin-top: 12px;
+}
+
+.card1content p:first-child {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.card1content p:last-child {
+  font-size: 15px;
+  font-weight: 600;
+  color: #d62828; /* simple danger red */
+  margin-top: 4px;
+}
+
+/* Minimal button */
+.managealerts {
+  margin-top: 30px;
+  padding: 10px 26px;
+  border-radius: 20px;
+  font-size: 15px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.managealerts:hover {
+  background: #333;
+  color: white;
+}
+

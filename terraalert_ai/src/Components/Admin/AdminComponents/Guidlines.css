@@ -1,0 +1,164 @@
+/* ===== GENERAL ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.guidelines-header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.guidelines-header button {
+    background: #007bff;
+    padding: 10px 18px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.guidelines-header button:hover {
+    background: #0056b3;
+}
+
+/* ===== ADD FORM ===== */
+.add-form {
+    width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.3s;
+}
+
+.add-form h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.add-form input,
+.add-form textarea,
+.add-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.add-form input:focus,
+.add-form textarea:focus,
+.add-form select:focus {
+    border-color: #007bff;
+}
+
+.add-form textarea {
+    min-height: 90px;
+    resize: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-save {
+    background: #28a745;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-save:hover {
+    background: #1f7e32;
+}
+
+.btn-cancel {
+    background: #dc3545;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-cancel:hover {
+    background: #b52a35;
+}
+
+/* ===== TABLE ===== */
+.guidelines-table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.guidelines-table thead {
+    background: #007bff;
+    color: white;
+}
+
+.guidelines-table th,
+.guidelines-table td {
+    padding: 12px 14px;
+    text-align: left;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.guidelines-table tbody tr:hover {
+    background: #f1f6ff;
+}
+
+/* ===== ACTION BUTTONS ===== */
+.icon {
+    width: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.icon:hover {
+    transform: scale(1.15);
+}
+
+.action-buttons button {
+    margin-right: 10px;
+}
+
+/* ===== EDIT ROW FORM INPUTS ===== */
+.guidelines-table input,
+.guidelines-table textarea,
+.guidelines-table select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.guidelines-table textarea {
+    min-height: 55px;
+    resize: none;
+}
