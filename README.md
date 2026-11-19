@@ -132,20 +132,6 @@ Open the local URL printed by Vite (commonly `http://localhost:5173/`).
 - Use example configuration files with placeholder values when documenting setup.
 - If secrets were previously committed, remove them from Git history and rotate the affected credentials.
 
-## 📸 Screenshots
-
-Add screenshots of your running application here, such as:
-- Home page and location search
-- Landslide risk dashboard
-- User notifications and safety guidelines
-- Admin dashboard and reports
-- Government authority dashboard
-
-You can store images in a `screenshots/` directory and embed them using Markdown, for example:
-
-```markdown
-![Landslide risk dashboard](screenshots/risk-dashboard.png)
-```
 
 ## 🧭 Future improvements
 
